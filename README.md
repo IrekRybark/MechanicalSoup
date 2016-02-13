@@ -22,7 +22,9 @@ Example
 From [`example.py`](example.py), code to log into the GitHub website:
 
 ```python
-"""Example app to login to GitHub"""
+"""Example app to login to GitHub
+Note: make sure to disabe two-factor authentication!
+"""
 import argparse
 import mechanicalsoup
 
